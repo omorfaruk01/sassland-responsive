@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ========================= first section start ============ */
+
+.first .head {
+    width: 100%;
+    height: auto;
+    background: darkgray;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.first .head .head-up {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.first .head .head-logo {
+    width: 30%;
+    margin: 20px 0 0 20px;
+}
+
+.first .head .head-nav-parent {
+    width: 70%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.first .head .head-nav-parent .head-nav  ul{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+
+.first .head .head-nav-parent .head-nav  ul li {
+    margin: 0 0 0 40px;
+}
+
+.first .head .head-nav-parent .head-nav  ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.head .head-down {
+    width: 100%;
+    color: white;
+    padding-bottom: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.head .head-down .welcome {
+    width: 45%;
+    margin: auto;
+}
+
+.head .head-down .welcome h1 {
+    margin-bottom: 4px;
+}
+
+.head .head-down .welcome p {
+    margin-top: 0;
+}
+/* ========================= first section end ============ */
+
+
+
+
+/* ========================== second section start ============ */
+
+/* ====== common css ===== */
+.second .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+/* ====== common css ===== */
+
+
+.second .c-one {
+    width: 100%;
+    height: auto;
+    margin: 200px 0 300px 0;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.second .c-one .c-one-content {
+    width: 50%;
+}
+
+.second .c-one .c-one-content .content-auto {
+    width: 80%;
+    margin: auto;
+
+}
+
+.second .c-one .c-one-content p {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+
+
+.second .c-one .c-one-img {
+    width: 50%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.second .c-one .c-one-img .img-auto {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.second .c-one .c-one-img .img-auto img {
+    width: 100%;
+}
+/* ========================== second section end ============ */
+
+
+
+
+
+/* ========================== second third start ============ */
+
+.third {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.third .foot .foot-img img {
+    width: 100%;
+    height: 400px;
+    display: block;
+    position: center center;
+    object-fit: cover;
+}
+/* ========================== second section end ============ */
